@@ -1,0 +1,11 @@
+
+*.h
+flaskProject.egg-info/dependency_links.txt
+flaskProject.egg-info/PKG-INFO
+*.pyc
+*.cfg
+*.rst
+venv
+flaskProject.egg-info/SOURCES.txt
+flaskProject.egg-info/top_level.txt
+flaskProject.egg-info/requires.txt
