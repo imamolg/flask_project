@@ -1,3 +1,7 @@
 graft flaskProject/templates
 graft flaskProject/static
 include flaskProject/schema.sql
+include flaskProject/models.py
+
+
+
