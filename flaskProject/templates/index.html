@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <h2>Welcome to flask!</h2>
+  <br>
+  <p>click<a href="/logout"> here </a>to logout.</p>
+
+  <br><br>
+  <h3>Posts:</h3>
+  {% for post in posts %}
+  <strong>Title:</strong>{{post.title}}<br>
+  <strong>Description:</strong>{{post.description}}<br>
+  <strong>Author:</strong>{{post.author.name}}<br>
+  <br>
+  {% endfor %}
+
+{% endblock %}
+
